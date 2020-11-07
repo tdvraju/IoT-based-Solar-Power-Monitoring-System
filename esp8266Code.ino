@@ -1,18 +1,18 @@
 #include <SoftwareSerial.h>
 #include <ESP8266WiFi.h>
 #include <ESP8266HTTPClient.h>
-String ifttt_key = "cvsGyWrMD6clchrP8Uz3Ow"; // webhooks key
-String ifttt_event_name = "Solar_Panel_inefficiency_detected"; //webhooks event name
+String ifttt_key = "cvsGyWrMD6clchrP8Uz3O1"; // webhooks key
+String ifttt_event_name = "Solar_Panel_inefficiency_detected1"; //webhooks event name
 String value1 = ""; //value1 that you want to send when the event is triggered
 SoftwareSerial NodeMCU(4,0);
 #include "Adafruit_MQTT.h"
 #include "Adafruit_MQTT_Client.h"
-#define WLAN_SSID       "Chandu"
-#define WLAN_PASS       "1968chandu"
+#define WLAN_SSID       "Chandu1"
+#define WLAN_PASS       "1968chandu11"
 #define AIO_SERVER      "io.adafruit.com"
 #define AIO_SERVERPORT  1883                   
-#define AIO_USERNAME    "solar_monitor"
-#define AIO_KEY         "aio_xwEr52EoZVKd5ZqLZgUs9YTjLTfR"
+#define AIO_USERNAME    "solar_monitor1"
+#define AIO_KEY         "aio_xwEr52EoZVKd5ZqZgUs9YTjLTfR1"
 
 
 // Create an ESP8266 WiFiClient class to connect to the MQTT server.
