@@ -4,3 +4,5 @@ This is a course Project for CS578-Internet of Things.
 The above given codes are to be loaded into Arduino Uno and NodeMCU. 
 It also requires the user to create accounts on IFTTT and Adafruit and obtain the secureity keys required for receiving live notifications and updates. 
 The keys above have been modified for security purposes.
+
+Link to the projet demo: https://drive.google.com/file/d/17cL7K1ZLppz837qhthtHMgx7zeMh5F7K/view?usp=sharing
